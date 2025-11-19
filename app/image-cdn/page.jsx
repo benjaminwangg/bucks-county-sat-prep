@@ -54,15 +54,7 @@ detection, so format is set to WebP.
 export default function Page() {
     return (
         <div className="flex flex-col gap-12 sm:gap-16">
-            <section>
-                <ContextAlert
-                    addedChecksFunction={(ctx) => {
-                        return ctx === 'dev' ? devModeWarning : null;
-                    }}
-                    className="mb-6"
-                />
-                <h1>Image CDN</h1>
-            </section>
+            
             <section>
                 <h2 className="mb-6">Using next/image component</h2>
                 <Markdown content={nextImageSnippet} className="mb-8" />
@@ -77,16 +69,7 @@ export default function Page() {
                             alt="Corgi"
                         />
                     </div>
-                    <figcaption className="mt-2 text-sm italic">
-                        Credit: photo by{' '}
-                        <a href="https://unsplash.com/@alvannee?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-                            Alvan Nee
-                        </a>{' '}
-                        on{' '}
-                        <a href="https://unsplash.com/photos/long-coated-white-and-brown-dog-lvFlpqEvuRM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-                            Unsplash
-                        </a>
-                    </figcaption>
+                    
                 </figure>
             </section>
             <section>
