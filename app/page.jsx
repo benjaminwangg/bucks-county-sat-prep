@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { getNetlifyContext } from 'utils';
 
 export const metadata = {
-  title: 'Image CDN'
+  title: 'Bucks County SAT Prep'
 };
 
 const sampleImage = '/images/bucks.jpg';
