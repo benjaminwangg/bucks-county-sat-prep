@@ -189,12 +189,12 @@ export default function LandingPage() {
             {/* Tutor 2 */}
             <div className="group relative bg-white rounded-3xl p-2 border border-slate-100 hover:border-blue-100 transition-all hover:shadow-2xl hover:shadow-blue-900/5">
               <div className="absolute top-6 right-6 bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
-                1550 SAT
+                1570 SAT
               </div>
               <div className="p-8">
                 <div className="h-24 w-24 bg-slate-200 rounded-full mb-6 overflow-hidden">
                     {/* Placeholder for Headshot */}
-                    <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Jordan" alt="Jordan" className="h-full w-full object-cover" />
+                    <img src="images/IMG_0631.jpg" alt="Jordan" className="h-full w-full object-cover" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-1">Ibrahim C.</h3>
                 <p className="text-blue-600 font-medium mb-4">Senior at Council Rock High School South</p>
